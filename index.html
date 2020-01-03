@@ -1,19 +1,288 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="./prd/src/index.css" />
-  <!-- <link rel="stylesheet" href="http://127.0.0.1:8082/prd/src/index.css"/> -->
-  <title>JSON-Schema-Editor</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/antd/3.25.3/antd.css" integrity="sha256-2uyr7nIbvnMXjIvOxVrJ/NnnWWUSWOY4M9BTOjFsdps=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./dist/main.css" />
+    <!-- <link rel="stylesheet" href="http://127.0.0.1:8082/prd/src/index.css"/> -->
+    <title>JSON-Schema-Editor</title>
 
 </head>
 
-<body>  
-  <div id="root"></div>
-  <script src="./prd/src/index.js"></script>
-  <!-- <script src="http://127.0.0.1:8082/prd/src/index.js"></script> -->
+<body>
+    <textarea style="display:none;" is="coral-textarea" class="coral-Form-field" placeholder="Enter your JSON" data-area="schema" name="originalReference" id="originalReference" labelledby="label-vertical-textarea-0" required>
+    {
+"type" : "object",
+"title":"DBP Navigation",
+"format":"categories",
+"required":["Properties","LocaleContent"],
+"properties" : {
+
+"Properties" : {
+"type" : "object",
+"properties" : {
+"navImageAltDescription" : {
+"type" : "string",
+"title" : "Nav Image Alt Description"
+},
+"secureFilterPattern" : {
+"type" : "string",
+"title" : "Secure Filter Pattern"
+},
+"navImageSrc" : {
+"type" : "string",
+"title" : "Nav Image URL",
+"class" : "jsonsearch"
+},
+"navImage" : {
+"type" : "string",
+"title" : "Nav Image",
+"enum": [
+"none",
+"top",
+"bottom"
+],
+"default": "None"
+}
+}
+},
+"LocaleContent" : {
+"type" : "object",
+"properties" : {
+"navItems" : {
+"type" : "array",
+"title" : "Nav Items",
+"items" : {
+"type" : "object",
+"properties" : {
+
+"label" : {
+  "type" : "string",
+  "title" : "Label"
+},
+"url" : {
+  "type" : "string",
+  "title" : "URL",
+  "class" : "jsonsearch"
+},
+"linkProps": {
+    "type": "array",
+    "title" : "Link Props",
+     "items": 
+      {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "title" : "Type"
+          },
+          "value": {
+            "type": "string",
+            "title" : "Value"
+          }
+        }
+        
+      }                    
+    
+  },
+"order" : {
+  "type" : "string",
+  "title" : "Order"
+},
+"childNavItems" : {
+  "type" : "array",
+   "title" : "Child Nav Items",
+  "items" : {
+    "type" : "object",
+    "properties" : {
+      "label" : {
+        "type" : "string",
+        "title" : "Label"
+      },
+      "url" : {
+        "type" : "string",
+        "title" : "URL",
+        "class" : "jsonsearch"
+      },
+"linkProps": {
+    "type": "array",
+     "title" : "Link Props",	
+     "items": 
+      {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "title" : "Type"
+          },
+          "value": {
+            "type": "string",
+            "title" : "Value"
+          }
+        }
+        
+      }                    
+    
+  },
+      "order" : {
+        "type" : "string",
+        "title" : "Order"
+      }
+    }
+  }
+},
+
+
+"childActionItems" : {
+  "type" : "object",
+  "title" : "Child Action Items",	
+  "properties" : {
+    "title" : {
+      "type" : "string",
+      "title" : "Title"
+    },
+    "rightActionItems" : {
+      "type" : "array",
+      "title" : "Right Action Items",	
+      
+      "items" : {
+        "type" : "object",
+        "properties" : {
+          "label" : {
+            "type" : "string",
+            "title" : "Label"
+          },
+          "url" : {
+            "type" : "string",
+            "title" : "URL",
+            "class" : "jsonsearch"
+          },
+"linkProps": {
+    "type": "array",	
+    "title" : "Link Props",	
+     "items": 
+      {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "title" : "Type"	
+          },
+          "value": {
+            "type": "string",
+            "title" : "Value"
+          }
+        }
+        
+      }                    
+    
+  },
+          "order" : {
+            "type" : "string",
+            "title" : "Order"	
+          }
+        }
+      }
+    },
+    "leftActionItems" : {
+      "type" : "array",
+      "title" : "Left Action Items",	
+      "items" : {
+        "type" : "object",
+        "properties" : {
+          "label" : {
+            "type" : "string",
+            "title" : "Label"	
+          },
+          "url" : {
+            "type" : "string",
+            "title" : "URL",
+            "class" : "jsonsearch"
+          },
+"linkProps": {
+             "type": "array",	
+             "title" : "Link Props",	
+             "items": 
+      {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "title" : "Type"	
+          },
+          "value": {
+            "type": "string",
+            "title" : "Value"
+          }
+        }
+        
+      }                    
+
+  },
+          "order" : {
+            "type" : "string",
+            "title" : "Order"	
+          }
+        }
+      }
+    }
+  }
+},
+"childFeaturedContent" : {
+  "type" : "object",
+  "title" : "Child Featured Content",	
+  "properties" : {
+    "text" : {
+      "type" : "string",
+      "title" : "Text"
+    },
+    "title" : {
+      "type" : "string",
+      "title" : "Title"
+    },
+    "url" : {
+      "type" : "string",
+      "title" : "URL",
+      "class" : "jsonsearch"
+    },
+"linkProps": {
+    "type": "array",	
+    "title" : "Link Props",	
+     "items": 
+      {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "title" : "Type"	
+          },
+          "value": {
+            "type": "string",
+            "title" : "Value"	
+          }
+        }
+        
+      }                    
+    
+  }
+  }
+}
+
+}
+}
+}
+}
+}
+}
+}
+
+</textarea>
+    <div id="vsjson">
+    </div>
+    <script src="./dist/main.js"></script>
+    <!-- <script src="http://127.0.0.1:8082/prd/src/index.js"></script> -->
 
 </body>
 

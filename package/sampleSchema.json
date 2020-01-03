@@ -1,0 +1,801 @@
+{
+    "type": "object",
+    "title": "DBP/DSU Registration Widget",
+    "format": "categories",
+    "properties": {
+        "LocaleContent": {
+            "type": "object",
+            "title": "Locale Content",
+            "properties": {
+                "label_StepIndicator_Email": {
+                    "type": "string",
+                    "title": "Label Step Indicator Email"
+                },
+                "label_NotValid_Email": {
+                    "type": "string",
+                    "title": "Label Not Valid Email"
+                },
+                "label_btn_cancel": {
+                    "type": "string",
+                    "title": "Label btn cancel"
+                },
+                "userRegistrationModal_headerText": {
+                    "type": "string",
+                    "title": "User Registration Modal header Text"
+                },
+                "label_numeric_length": {
+                    "type": "string",
+                    "title": "Label numeric length"
+                },
+                "label_txt_email_address": {
+                    "type": "string",
+                    "title": "Label txt email address"
+                },
+                "label_btn_select": {
+                    "type": "string",
+                    "title": "Label btn select"
+                },
+                "label_mainHeaderText": {
+                    "type": "string",
+                    "title": "Label main Header Text"
+                },
+                "label_lnk_forgot_password": {
+                    "type": "string",
+                    "title": "Label lnk forgot password"
+                },
+                "info_loading_question": {
+                    "type": "string",
+                    "title": "Info loading question"
+                },
+                "label_lowercase_length": {
+                    "type": "string",
+                    "title": "Label lowercase length"
+                },
+                "mainHeaderText": {
+                    "type": "string",
+                    "title": "Main Header Text"
+                },
+                "label_TextCode": {
+                    "type": "string",
+                    "title": "Label Text Code"
+                },
+                "label_option_EMAIL": {
+                    "type": "string",
+                    "title": "Label option EMAIL"
+                },
+                "label_lnk_back": {
+                    "type": "string",
+                    "title": "Label lnk back"
+                },
+                "label_first_name": {
+                    "type": "string",
+                    "title": "Label first name"
+                },
+                "label_last_name": {
+                    "type": "string",
+                    "title": "Label last name"
+                },
+                "userPasswordResetRequiredModal_message": {
+                    "type": "string",
+                    "title": "User Password Reset Required Modal message"
+                },
+                "label_ResetPassword": {
+                    "type": "string",
+                    "title": "Label Reset Password"
+                },
+                "img_alt_text_EMAIL": {
+                    "type": "string",
+                    "title": "Img alt text EMAIL"
+                },
+                "label_Questions_mainHeaderText": {
+                    "type": "string",
+                    "title": "Label Questions main Header Text"
+                },
+                "label_txt_password": {
+                    "type": "string",
+                    "title": "Label txt password"
+                },
+                "label_welcomeMessageText": {
+                    "type": "string",
+                    "title": "Label welcome Message Text"
+                },
+                "label_EnterVerificationCode": {
+                    "type": "string",
+                    "title": "Label Enter Verification Code"
+                },
+                "label_SubmitButton": {
+                    "type": "string",
+                    "title": "Label Submit Button"
+                },
+                "label_step1_cancel": {
+                    "type": "string",
+                    "title": "Label step 1 cancel"
+                },
+                "label_get_security_question": {
+                    "type": "string",
+                    "title": "Label get security question"
+                },
+                "label_selection_subHeaderText": {
+                    "type": "string",
+                    "title": "Label selection sub Header Text"
+                },
+                "label_txt_answer": {
+                    "type": "string",
+                    "title": "Label txt answer"
+                },
+                "label_Cancelbutton": {
+                    "type": "string",
+                    "title": "Label Cancelbutton"
+                },
+                "errorMessages": {
+                    "type": "array",
+                    "title": "Error Messages",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "code": {
+                                "type": "string",
+                                "title": "Code"
+                            },
+                            "message": {
+                                "type": "string",
+                                "title": "Message"
+                            }
+                        }
+                    }
+                },
+                "label_confirm_password": {
+                    "type": "string",
+                    "title": "Label confirm password"
+                },
+                "label_GetStarted": {
+                    "type": "string",
+                    "title": "Label Get Started"
+                },
+                "label_txt_token_code": {
+                    "type": "string",
+                    "title": "Label txt token code"
+                },
+                "label_PlaceHolderEmail": {
+                    "type": "string",
+                    "title": "Label Place Holder Email"
+                },
+                "label_StepInidicator_AdditionalSecurity": {
+                    "type": "string",
+                    "title": "Label Step Inidicator Additional Security"
+                },
+                "label_char_length": {
+                    "type": "string",
+                    "title": "Label char length"
+                },
+                "userRegistrationModal_message": {
+                    "type": "string",
+                    "title": "User Registration Modal message"
+                },
+                "Resend_Message": {
+                    "type": "string",
+                    "title": "Resend Message"
+                },
+                "label_chk_remember_me": {
+                    "type": "string",
+                    "title": "Label chk remember me"
+                },
+                "label_btn_login": {
+                    "type": "string",
+                    "title": "Label btn login"
+                },
+                "label_lnk_register_new": {
+                    "type": "string",
+                    "title": "Label lnk register new"
+                },
+                "label_Continuebutton": {
+                    "type": "string",
+                    "title": "Label Continuebutton"
+                },
+                "label_option_VOICE": {
+                    "type": "string",
+                    "title": "Label option VOICE"
+                },
+                "label_option_QUESTIONS": {
+                    "type": "string",
+                    "title": "Label option QUESTIONS"
+                },
+                "label_lnk_resend_code": {
+                    "type": "string",
+                    "title": "Label lnk resend code"
+                },
+                "label_lnk_ask_another": {
+                    "type": "string",
+                    "title": "Label lnk ask another"
+                },
+                "label_ActivationSent": {
+                    "type": "string",
+                    "title": "Label Activation Sent"
+                },
+                "label_Questions_subHeaderText": {
+                    "type": "string",
+                    "title": "Label Questions sub Header Text"
+                },
+                "label_user_register_header_main": {
+                    "type": "string",
+                    "title": "Label user register header main"
+                },
+                "label_password": {
+                    "type": "string",
+                    "title": "Label password"
+                },
+                "label_StepIndicator_CreatePassword": {
+                    "type": "string",
+                    "title": "Label Step Indicator Create Password"
+                },
+                "label_confirm_email_address": {
+                    "type": "string",
+                    "title": "Label confirm email address"
+                },
+                "userRegistrationModal_cancelButtonText": {
+                    "type": "string",
+                    "title": "User Registration Modal cancel Button Text"
+                },
+                "label_StepIndicator_EmailVerify": {
+                    "type": "string",
+                    "title": "Label Step Indicator Email Verify"
+                },
+                "label_EnterCode": {
+                    "type": "string",
+                    "title": "Label Enter Code"
+                },
+                "label_btn_register": {
+                    "type": "string",
+                    "title": "Label btn register"
+                },
+                "label_option_SMS": {
+                    "type": "string",
+                    "title": "Label option SMS"
+                },
+                "label_token_mainHeaderText": {
+                    "type": "string",
+                    "title": "Label token main Header Text"
+                },
+                "label_user_register_sub_header": {
+                    "type": "string",
+                    "title": "Label user register sub header"
+                },
+                "label_validation_header": {
+                    "type": "string",
+                    "title": "Label validation header"
+                },
+                "label_symbol_length": {
+                    "type": "string",
+                    "title": "Label symbol length"
+                },
+                "subHeaderText": {
+                    "type": "string",
+                    "title": "Sub Header Text"
+                },
+                "label_txt_token": {
+                    "type": "string",
+                    "title": "Label txt token"
+                },
+                "label_selection_mainHeaderText": {
+                    "type": "string",
+                    "title": "Label selection main Header Text"
+                },
+                "label_email_address": {
+                    "type": "string",
+                    "title": "Label email address"
+                },
+                "userRegistrationModal_submitButtonText": {
+                    "type": "string",
+                    "title": "User Registration Modal submit Button Text"
+                },
+                "label_ResendCode": {
+                    "type": "string",
+                    "title": "Label Resend Code"
+                },
+                "label_loggedInMessageText": {
+                    "type": "string",
+                    "title": "Label logged In Message Text"
+                },
+                "label_Phone_Delete_link": {
+                    "type": "string",
+                    "title": "Label Phone Delete link"
+                },
+                "label_Phone_Add_anotherphone": {
+                    "type": "string",
+                    "title": "Label Phone Add anotherphone"
+                },
+                "label_StepIndicator_UserName": {
+                    "type": "string",
+                    "title": "Label Step Indicator User Name"
+                },
+                "email_capture_user_register_header_main": {
+                    "type": "string",
+                    "title": "Email capture user register header main"
+                },
+                "label_Email_EnterActivationCode_header": {
+                    "type": "string",
+                    "title": "Label Email Enter Activation Code header"
+                },
+                "label_Phone_Primary_Phone_Number": {
+                    "type": "string",
+                    "title": "Label Phone Primary Phone Number"
+                },
+                "label_Email_codesent_to_emailaddress": {
+                    "type": "string",
+                    "title": "Label Email codesent to emailaddress"
+                },
+                "label_phone_note": {
+                    "type": "string",
+                    "title": "Label phone note"
+                },
+                "Security_Questions_Note_Section": {
+                    "type": "object",
+                    "title": "Security Questions Note Section",
+                    "properties": {
+                        "instructions": {
+                            "type": "object",
+                            "title": "Instructions",
+                            "properties": {
+                                "label_iconURL": {
+                                    "type": "string",
+                                    "title": "Label icon URL",
+                                    "class": "jsonsearch"
+                                },
+                                "asset_label_iconURL_size": {
+                                    "type": "string",
+                                    "title": "Asset label icon URL size"
+                                },
+                                "label_headingText": {
+                                    "type": "string",
+                                    "title": "Label heading Text"
+                                },
+                                "label_content": {
+                                    "type": "string",
+                                    "title": "Label content"
+                                }
+                            }
+                        }
+                    }
+                },
+                "label_Email_ErrorMessage": {
+                    "type": "string",
+                    "title": "Label Email Error Message"
+                },
+                "label_StepIndicator_SecurityQuestions": {
+                    "type": "string",
+                    "title": "Label Step Indicator Security Questions"
+                },
+                "Resend_Phone_OTP": {
+                    "type": "string",
+                    "title": "Resend Phone OTP"
+                },
+                "label_Voice_EnterActivationCode_header": {
+                    "type": "string",
+                    "title": "Label Voice Enter Activation Code header"
+                },
+                "label_Email_codebelow": {
+                    "type": "string",
+                    "title": "Label Email codebelow"
+                },
+                "label_expect_voiceCall": {
+                    "type": "string",
+                    "title": "Label expect voice Call"
+                },
+                "link_Error2FA_Codes": {
+                    "type": "string",
+                    "title": "Link Error 2 FA Codes"
+                },
+                "label_Security_Questions_subheader": {
+                    "type": "string",
+                    "title": "Label Security Questions subheader"
+                },
+                "label_StepIndicator_Recoveryphonenumber": {
+                    "type": "string",
+                    "title": "Label Step Indicator Recoveryphonenumber"
+                },
+                "label_Phone_ErrorMessage": {
+                    "type": "string",
+                    "title": "Label Phone Error Message"
+                },
+                "label_username": {
+                    "type": "string",
+                    "title": "Label username"
+                },
+                "label_Phone_Phonenumber": {
+                    "type": "string",
+                    "title": "Label Phone Phonenumber"
+                },
+                "label_Security_Questions_lengthcheck": {
+                    "type": "string",
+                    "title": "Label Security Questions lengthcheck"
+                },
+                "label_Security_Questions_submit": {
+                    "type": "string",
+                    "title": "Label Security Questions submit"
+                },
+                "label_email_note": {
+                    "type": "string",
+                    "title": "Label email note"
+                },
+                "label_Phone_Resend_Code": {
+                    "type": "string",
+                    "title": "Label Phone Resend Code"
+                },
+                "label_Security_Answer_Length_Check": {
+                    "type": "string",
+                    "title": "Label Security Answer Length Check"
+                },
+                "label_btn_SUBMIT": {
+                    "type": "string",
+                    "title": "Label btn SUBMIT"
+                },
+                "label_StepIndicator_Phoneverification": {
+                    "type": "string",
+                    "title": "Label Step Indicator Phoneverification"
+                },
+                "label_Security_Questions_ErrorMessage": {
+                    "type": "string",
+                    "title": "Label Security Questions Error Message"
+                },
+                "label_Phone_Codebelow": {
+                    "type": "string",
+                    "title": "Label Phone Codebelow"
+                },
+                "label_Phone_EnterActivationCode_header": {
+                    "type": "string",
+                    "title": "Label Phone Enter Activation Code header"
+                },
+                "label_Phone_CANCEL": {
+                    "type": "string",
+                    "title": "Label Phone CANCEL"
+                },
+                "label_Phone_SUBMIT": {
+                    "type": "string",
+                    "title": "Label Phone SUBMIT"
+                },
+                "label_StepIndicator_EmailVerification": {
+                    "type": "string",
+                    "title": "Label Step Indicator Email Verification"
+                },
+                "label_phone_invalid_message": {
+                    "type": "string",
+                    "title": "Label phone invalid message"
+                },
+                "label_Email_code": {
+                    "type": "string",
+                    "title": "Label Email code"
+                },
+                "Resend_Email_OTP": {
+                    "type": "string",
+                    "title": "Resend Email OTP"
+                },
+                "label_Phone_Secondary_Phone_Number": {
+                    "type": "string",
+                    "title": "Label Phone Secondary Phone Number"
+                },
+                "label_Phone_EnterActivation_header": {
+                    "type": "string",
+                    "title": "Label Phone Enter Activation header"
+                },
+                "label_Phone_sub_header": {
+                    "type": "string",
+                    "title": "Label Phone sub header"
+                },
+                "label_Phone_Send_code": {
+                    "type": "string",
+                    "title": "Label Phone Send code"
+                },
+                "label_Phone_Code": {
+                    "type": "string",
+                    "title": "Label Phone Code"
+                },
+                "email_capture_user_register_sub_header": {
+                    "type": "string",
+                    "title": "Email capture user register sub header"
+                },
+                "label_phonetext_note": {
+                    "type": "string",
+                    "title": "Label phonetext note"
+                },
+                "label_Phone_received_text_message": {
+                    "type": "string",
+                    "title": "Label Phone received text message"
+                },
+                "label_Voice_Resend_code": {
+                    "type": "string",
+                    "title": "Label Voice Resend code"
+                },
+                "label_Phone_header": {
+                    "type": "string",
+                    "title": "Label Phone header"
+                },
+                "label_confirmation_message": {
+                    "type": "string",
+                    "title": "Label confirmation message"
+                },
+                "label_Phone_Activation_message": {
+                    "type": "string",
+                    "title": "Label Phone Activation message"
+                },
+                "label_Security_Questions_header": {
+                    "type": "string",
+                    "title": "Label Security Questions header"
+                },
+                "ContactUs_Email_Uri": {
+                    "type": "string",
+                    "title": "Contact Us Email Uri"
+                },
+                "label_redirect_seconds": {
+                    "type": "string",
+                    "title": "Label redirect seconds"
+                },
+                "label_Update_PhoneNumber": {
+                    "type": "string",
+                    "title": "Label Update Phone Number"
+                },
+                "label_redirect_message": {
+                    "type": "string",
+                    "title": "Label redirect message"
+                },
+                "label_msg_Resend": {
+                    "type": "string",
+                    "title": "Label msg Resend"
+                },
+                "label_Success_message": {
+                    "type": "string",
+                    "title": "Label Success message"
+                },
+                "label_btn_continue": {
+                    "type": "string",
+                    "title": "Label btn continue"
+                },
+                "label_Security_Answer_Restriction": {
+                    "type": "string",
+                    "title": "Label Security Answer Restriction"
+                },
+                "label_Security_Questions_Q1": {
+                    "type": "string",
+                    "title": "Label Security Questions Q 1"
+                },
+                "label_Security_Questions_Q2": {
+                    "type": "string",
+                    "title": "Label Security Questions Q 2"
+                },
+                "label_Security_Questions_Q3": {
+                    "type": "string",
+                    "title": "Label Security Questions Q 3"
+                },
+                "label_Resend_code": {
+                    "type": "string",
+                    "title": "Label Resend code"
+                },
+                "label_Phone_text_messages": {
+                    "type": "string",
+                    "title": "Label Phone text messages"
+                },
+                "label_Security_Questions_A1": {
+                    "type": "string",
+                    "title": "Label Security Questions A 1"
+                },
+                "label_Security_Questions_A2": {
+                    "type": "string",
+                    "title": "Label Security Questions A 2"
+                },
+                "ratingsText": {
+                    "type": "object",
+                    "title": "Ratings Text",
+                    "properties": {
+                        "normal": {
+                            "type": "string",
+                            "title": "Normal"
+                        },
+                        "veryStrong": {
+                            "type": "string",
+                            "title": "Very Strong"
+                        },
+                        "strong": {
+                            "type": "string",
+                            "title": "Strong"
+                        },
+                        "wordRepetitions": {
+                            "type": "string",
+                            "title": "Word Repetitions"
+                        },
+                        "wordOneSpecialChar": {
+                            "type": "string",
+                            "title": "Word One Special Char"
+                        },
+                        "errorList": {
+                            "type": "string",
+                            "title": "Error List"
+                        },
+                        "wordLength": {
+                            "type": "string",
+                            "title": "Word Length"
+                        },
+                        "wordTwoCharacterClasses": {
+                            "type": "string",
+                            "title": "Word Two Character Classes"
+                        },
+                        "medium": {
+                            "type": "string",
+                            "title": "Medium"
+                        },
+                        "wordSequences": {
+                            "type": "string",
+                            "title": "Word Sequences"
+                        },
+                        "weak": {
+                            "type": "string",
+                            "title": "Weak"
+                        },
+                        "veryWeak": {
+                            "type": "string",
+                            "title": "Very Weak"
+                        },
+                        "wordSimilarToUsername": {
+                            "type": "string",
+                            "title": "Word Similar To Username"
+                        },
+                        "wordUpperLowerCombo": {
+                            "type": "string",
+                            "title": "Word Upper Lower Combo"
+                        },
+                        "wordNotEmail": {
+                            "type": "string",
+                            "title": "Word Not Email"
+                        }
+                    }
+                },
+                "Contact Us": {
+                    "type": "string",
+                    "title": "Contact   Us"
+                },
+                "link_Error2FA_Text": {
+                    "type": "string",
+                    "title": "Link Error 2 FA Text"
+                },
+                "label_Security_Questions_A3": {
+                    "type": "string",
+                    "title": "Label Security Questions A 3"
+                },
+                "label_Email_codesent_to_phone": {
+                    "type": "string",
+                    "title": "Label Email codesent to phone"
+                },
+                "label_Error_message": {
+                    "type": "string",
+                    "title": "Label Error message"
+                },
+                "label_confirmation_error": {
+                    "type": "string",
+                    "title": "Label confirmation error"
+                },
+                "label_btn_error": {
+                    "type": "string",
+                    "title": "Label btn error"
+                },
+                "label_2fa_email_verify_message": {
+                    "type": "string",
+                    "title": "Label 2 fa email verify message"
+                },
+                "label_2fa_sms_verify_message": {
+                    "type": "string",
+                    "title": "Label 2 fa sms verify message"
+                },
+                "label_2fa_voice_verify_message": {
+                    "type": "string",
+                    "title": "Label 2 fa voice verify message"
+                },
+                "countryList": {
+                    "type": "array",
+                    "title": "Country List",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "name": {
+                                "type": "string",
+                                "title": "Name"
+                            },
+                            "internationalCode": {
+                                "type": "string",
+                                "title": "International Code"
+                            },
+                            "ISOCode": {
+                                "type": "string",
+                                "title": "ISO Code"
+                            },
+                            "isRestrcited": {
+                                "type": "boolean",
+                                "title": "Is Restrcited"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Properties": {
+            "type": "object",
+            "title": "Properties",
+            "properties": {
+                "asset_img_source_EMAIL_VERIFY_TOKEN_size": {
+                    "type": "string",
+                    "title": "Asset img source EMAIL VERIFY TOKEN size"
+                },
+                "img_source_EMAIL_VERIFY_TOKEN": {
+                    "type": "string",
+                    "title": "Img source EMAIL VERIFY TOKEN",
+                    "class": "jsonsearch"
+                },
+                "externalConfigs": {
+                    "type": "object",
+                    "title": "External Configs",
+                    "properties": {
+                        "allow_phone_voice_validation": {
+                            "type": "string",
+                            "title": "Allow phone voice validation"
+                        },
+                        "return_to_microsite_on_error": {
+                            "type": "string",
+                            "title": "Return to microsite on error"
+                        },
+                        "redirect_to_secure_page": {
+                            "type": "string",
+                            "title": "Redirect to secure page"
+                        },
+                        "enable_first_last_name": {
+                            "type": "string",
+                            "title": "Enable first last name"
+                        },
+                        "allow_custom_username": {
+                            "type": "string",
+                            "title": "Allow custom username"
+                        },
+                        "show_step_indicator": {
+                            "type": "string",
+                            "title": "Show step indicator"
+                        },
+                        "enable_first_last_name_on_email_capture": {
+                            "type": "string",
+                            "title": "Enable first last name on email capture"
+                        }
+                    }
+                },
+                "field_configs": {
+                    "type": "array",
+                    "title": "Field configs",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "optionName": {
+                                "type": "string",
+                                "title": "Option Name"
+                            },
+                            "displayOrder": {
+                                "type": "string",
+                                "title": "Display Order"
+                            }
+                        }
+                    }
+                },
+                "email_capture_input_field_configs": {
+                    "type": "array",
+                    "title": "Email capture input field configs",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "optionName": {
+                                "type": "string",
+                                "title": "Option Name"
+                            },
+                            "displayOrder": {
+                                "type": "string",
+                                "title": "Display Order"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

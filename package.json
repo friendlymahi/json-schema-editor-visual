@@ -1,41 +1,49 @@
 {
-  "name": "json-schema-editor-visual",
-  "version": "1.1.1",
-  "description": "jsonschema editor",
-  "main": "package/index.js",
-  "license": "MIC",
-  "scripts": {
-    "start": "ykit s -p 8082",
-    "demo": "NODE_ENV=production ykit pack -m",
-    "build": "NODE_ENV=production webpack"
-  },
-  "dependencies": {
-    "antd": "^3.1.6",
-    "generate-schema": "^2.6.0",
-    "moox": "^1.0.2",
-    "react-redux": "^5.0.6",
-    "underscore": "^1.8.3",
-    "brace": "^0.10.0"
-  },
-  "devDependencies": {
-    "autoprefixer": "^7.2.1",
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.4",
-    "babel-plugin-import": "^1.7.0",
-    "babel-plugin-transform-class-properties": "^6.24.1",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-react-app": "^3.1.0",
-    "cross-env": "^5.1.1",
-    "css-loader": "^0.28.11",
-    "extract-text-webpack-plugin": "^4.0.0-beta.0",
-    "less": "^2.7.2",
-    "less-loader": "^4.1.0",
-    "react-addons-perf": "^15.4.2",
-    "style-loader": "^0.20.3",
-    "webpack": "^4.5.0",
-    "webpack-cli": "^2.0.14",
-    "ykit-config-antd": "^1.2.0"
-  }
+    "name": "json-schema-editor-visual",
+    "version": "1.1.1",
+    "description": "jsonschema editor",
+    "main": "package/index.js",
+    "license": "MIC",
+    "scripts": {
+        "start": "ykit s -p 8082",
+        "demo": "ykit pack -m",
+        "build": "webpack --config webpack.config.js --colors",
+        "build-dev": "webpack --config webpack.dev.config.js --colors",
+        "build-dev-watch": "webpack --config webpack.dev.config.js --colors --watch"
+    },
+    "dependencies": {
+        "antd": "^3.26.5",
+        "brace": "^0.10.0",
+        "generate-schema": "^2.6.0",
+        "moox": "^1.0.2",
+        "prop-types": "^15.7.2",
+        "react": "^16.12.0",
+        "react-dom": "^16.12.0",
+        "react-redux": "^5.0.6",
+        "redux": "^4.0.5",
+        "underscore": "^1.8.3"
+    },
+    "devDependencies": {
+        "autoprefixer": "^7.2.1",
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.0",
+        "babel-loader": "^7.1.4",
+        "babel-plugin-import": "^1.7.0",
+        "babel-plugin-transform-class-properties": "^6.24.1",
+        "babel-preset-env": "^1.6.1",
+        "babel-preset-react": "^6.24.1",
+        "babel-preset-react-app": "^3.1.0",
+        "cross-env": "^5.1.1",
+        "css-loader": "^0.28.11",
+        "extract-text-webpack-plugin": "^4.0.0-beta.0",
+        "hard-source-webpack-plugin": "^0.13.1",
+        "less": "^2.7.2",
+        "less-loader": "^4.1.0",
+        "mini-css-extract-plugin": "^0.9.0",
+        "react-addons-perf": "^15.4.2",
+        "style-loader": "^0.20.3",
+        "webpack": "^4.41.5",
+        "webpack-cli": "^3.3.10",
+        "ykit-config-antd": "^1.2.2"
+    }
 }
